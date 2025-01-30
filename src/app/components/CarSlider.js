@@ -54,7 +54,7 @@ export default function CarSlider() {
 
   return (
     <div className="relative w-[85%] mx-auto mt-8 overflow-hidden rounded-lg shadow-lg md:w-[90%]">
-      <div className="absolute left-0 bottom-3 z-30 p-2 sm:p-4 bg-black bg-opacity-30 text-white rounded-lg m-2 sm:m-4 w-auto max-w-xs sm:max-w-md">
+      <div className="absolute left-0 bottom-3 z-30 p-2 mb-4 sm:p-4 bg-black bg-opacity-30 text-white rounded-lg m-2 sm:m-4 w-auto max-w-xs sm:max-w-md">
         <h2 className="text-lg sm:text-2xl font-bold">
           {cars[currentIndex].name}
         </h2>
