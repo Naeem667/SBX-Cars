@@ -27,11 +27,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-6 mx-5 md:mt-0 text-center md:text-left">
+        <div className="mt-6 md:mt-0 text-center md:text-left">
           <p className="text-gray-600">
-            Get the latest updates by subscribing to our newsletter.
+            Get the latest updates by subscribing to our newsletter
           </p>
-          <div className="flex mt-3 mx-5 border border-gray-300 rounded-md overflow-hidden">
+          <div className="flex mt-3 border border-gray-300 rounded-md overflow-hidden">
             <input
               type="email"
               placeholder="Email Address"
@@ -44,26 +44,23 @@ export default function Footer() {
             </button>
           </div>
         </div>
-
-        <div className="mt-6 md:mt-0 grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-600 text-sm text-center md:text-left">
-          <div>
-            <p>• Auctions</p>
-            <p>• Brands</p>
-            <p>• Sell your vehicle</p>
-            <p>• FAQ</p>
-            <p>• Contact us</p>
-            <p>• Auction Results</p>
-          </div>
-          <div>
-            <p>• About us</p>
-            <p>• Team</p>
-            <p>• Careers</p>
-          </div>
-          <div>
-            <p>• Terms of use</p>
-            <p>• Privacy policy</p>
-            <p>• Cookie declaration</p>
-          </div>
+        <div className="mt-6 md:mt-0 grid grid-cols-2 gap-6 text-gray-600 text-sm text-left">
+          <ul className="list-disc pl-5 space-y-2">
+            <li>Auctions</li>
+            <li>Brands</li>
+            <li>Sell your vehicle</li>
+            <li>FAQ</li>
+            <li>Contact us</li>
+            <li>Auction Results</li>
+          </ul>
+          <ul className="list-disc pl-5 space-y-2">
+            <li>About us</li>
+            <li>Team</li>
+            <li>Careers</li>
+            <li>Terms of use</li>
+            <li>Privacy policy</li>
+            <li>Cookie declaration</li>
+          </ul>
         </div>
       </div>
 
