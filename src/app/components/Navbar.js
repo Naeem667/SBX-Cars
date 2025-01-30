@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full py-4 px-6 flex items-center justify-center">
-      <div className="md:flex space-x-6 text-gray-700">
+      <div className="md:flex space-x-4 text-gray-700">
         <Link href="#">Auctions</Link>
         <Link href="#">Preview</Link>
         <Link href="#">Results</Link>

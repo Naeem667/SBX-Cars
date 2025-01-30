@@ -5,32 +5,32 @@ import Image from "next/image";
 
 const cars = [
   {
-    name: "Car Model 1",
+    name: "Porsche",
     year: 2020,
     src: "/car1.webp",
   },
   {
-    name: "Car Model 2",
+    name: "GT3 RS",
     year: 2021,
     src: "/car2.webp",
   },
   {
-    name: "Car Model 3",
+    name: "Land Rover",
     year: 2022,
     src: "/car3.webp",
   },
   {
-    name: "Car Model 4",
+    name: "McLaren",
     year: 2023,
     src: "/car4.webp",
   },
   {
-    name: "Car Model 5",
+    name: "Mercedes",
     year: 2024,
     src: "/car5.webp",
   },
   {
-    name: "Car Model 6",
+    name: "Ferrari",
     year: 2024,
     src: "/car6.webp",
   },
@@ -53,7 +53,7 @@ export default function CarSlider() {
   }, []);
 
   return (
-    <div className="relative w-[80%] mx-auto mt-8 overflow-hidden rounded-lg shadow-lg md:w-[90%]">
+    <div className="relative w-[85%] mx-auto mt-8 overflow-hidden rounded-lg shadow-lg md:w-[90%]">
       <div className="absolute left-0 bottom-3 z-30 p-2 sm:p-4 bg-black bg-opacity-30 text-white rounded-lg m-2 sm:m-4 w-auto max-w-xs sm:max-w-md">
         <h2 className="text-lg sm:text-2xl font-bold">
           {cars[currentIndex].name}
